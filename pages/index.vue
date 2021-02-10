@@ -1,15 +1,31 @@
 <template>
-  <v-container>
-    <header class="pa-6">
+  <v-container class="pa-8">
+    <header class="pa-2">
       <topnav></topnav>
     </header>
+    <v-main>
+      <v-row class="pa-3">
+        <v-col cols="12" sm="6" md="6" lg="4">
+          <extra-information></extra-information>
+        </v-col>
+        <!-- <v-col cols="12" sm="6" md="6" lg="4">
+          <experience></experience>
+        </v-col> -->
+      </v-row>
+    </v-main>
   </v-container>
 </template>
 
 <script>
 import topnav from '@/components/topnav'
+// import Experience from '@/components/experience.vue'
+import ExtraInformation from '@/components/extra-information.vue'
 
 export default {
-  components: { topnav },
+  components: {
+    topnav,
+    // Experience,
+    ExtraInformation,
+  },
 }
 </script>

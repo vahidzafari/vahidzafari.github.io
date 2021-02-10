@@ -1,16 +1,18 @@
 <template>
   <div>
-    <section class="avatar">
-      <div>
-        <img src="@/assets/images/profile.jpeg" alt="profile image" />
-      </div>
-    </section>
-    <section class="heading">
-      <h1>Vahid Zafari</h1>
-      <h2>Full-stack Engineer and Designer</h2>
-    </section>
-    <hr />
+    <article>
+      <section class="avatar">
+        <div>
+          <img src="@/assets/images/profile.jpeg" alt="profile image" />
+        </div>
+      </section>
+      <section class="heading">
+        <h1>Vahid Zafari</h1>
+        <h2>Full-stack Engineer and Designer</h2>
+      </section>
+    </article>
     <section class="paragraph">
+      <hr />
       <h1>Profile Summary</h1>
       <p>
         I am a full-stack engineer and designer, a tech enthusiast, and an
