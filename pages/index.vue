@@ -1,7 +1,15 @@
 <template>
-  <h1>Hello World!</h1>
+  <v-container>
+    <header class="pa-6">
+      <topnav></topnav>
+    </header>
+  </v-container>
 </template>
 
 <script>
-export default {}
+import topnav from '@/components/topnav'
+
+export default {
+  components: { topnav },
+}
 </script>

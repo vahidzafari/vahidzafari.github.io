@@ -1,6 +1,8 @@
-# portfolio
+# Portfolio
 
-## Build Setup
+This repository introduce my experience and skills. To check it open the [https://vahidzafari.github.io](https://vahidzafari.github.io)
+
+### Nuxt Build Setup
 
 ```bash
 # install dependencies
