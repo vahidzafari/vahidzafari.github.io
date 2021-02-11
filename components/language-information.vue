@@ -21,11 +21,11 @@ export default {
     return {
       items: [
         {
-          title: 'Persian',
+          title: 'Persian (Native)',
           icon: 'mdi-web-box',
         },
         {
-          title: 'English',
+          title: 'English (Advanced)',
           icon: 'mdi-web-box',
         },
       ],
