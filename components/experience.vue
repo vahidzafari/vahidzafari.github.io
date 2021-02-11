@@ -4,13 +4,13 @@
     <h1>Work Experience</h1>
     <v-row>
       <v-col
+        v-for="(item, i) in items"
+        :key="i"
         cols="12"
         sm="12"
         md="12"
         lg="6"
         class="ma-0 pa-0"
-        v-for="(item, i) in items"
-        :key="i"
       >
         <v-list color="transparent" two-line dense>
           <v-list-item>
