@@ -4,7 +4,7 @@
     <h1>Languages</h1>
     <v-list color="transparent" dense>
       <v-list-item v-for="(item, i) in items" :key="i" dense>
-        <v-list-item-avatar>
+        <v-list-item-avatar class="pa-0 ma-0">
           <v-icon v-text="item.icon"></v-icon>
         </v-list-item-avatar>
         <v-list-item-content>

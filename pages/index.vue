@@ -35,6 +35,7 @@ export default {
 
 <style lang="scss">
 .bg {
+  border: 2px solid black;
   background-color: #ffe082 !important;
 }
 </style>
