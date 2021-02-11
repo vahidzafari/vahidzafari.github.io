@@ -8,10 +8,13 @@ body {
   padding: 0;
   margin: 0;
   font-size: 100%;
-  background-color: #ededed;
 }
 
 img {
   height: 100%;
   width: 100%;
+}
+
+.border {
+  border: 1px solid red;
 }

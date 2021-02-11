@@ -1,5 +1,5 @@
 <template>
-  <v-container class="pa-8">
+  <v-container class="pa-8 bg">
     <header class="pa-2">
       <topnav></topnav>
     </header>
@@ -8,9 +8,9 @@
         <v-col cols="12" sm="6" md="6" lg="4">
           <extra-information></extra-information>
         </v-col>
-        <!-- <v-col cols="12" sm="6" md="6" lg="4">
+        <v-col cols="12" sm="6" md="6" lg="8">
           <experience></experience>
-        </v-col> -->
+        </v-col>
       </v-row>
     </v-main>
   </v-container>
@@ -18,14 +18,20 @@
 
 <script>
 import topnav from '@/components/topnav'
-// import Experience from '@/components/experience.vue'
+import Experience from '@/components/experience.vue'
 import ExtraInformation from '@/components/extra-information.vue'
 
 export default {
   components: {
     topnav,
-    // Experience,
+    Experience,
     ExtraInformation,
   },
 }
 </script>
+
+<style lang="scss">
+.bg {
+  background-color: #ffe082 !important;
+}
+</style>
