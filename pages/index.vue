@@ -36,7 +36,12 @@ export default {
 <style lang="scss">
 .bg {
   border: 2px solid black;
-  max-width: 1000px;
   background-color: #ffe082 !important;
+}
+
+@media only screen and (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
 }
 </style>
