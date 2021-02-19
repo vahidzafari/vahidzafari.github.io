@@ -3,10 +3,10 @@
     <hr />
     <h1>Salary Expectation</h1>
     <v-list color="transparent" dense>
-      <v-list-item v-for="({title, i}) in items" :key="i" dense>
+      <v-list-item v-for="(item, i) in items" :key="i" dense>
         <v-list-item-content>
-        <v-list-item-subtitle>{{title}}</v-list-item-subtitle>
-          <v-list-item-title>{{value}}</v-list-item-title>
+          <v-list-item-subtitle>{{ item.title }}</v-list-item-subtitle>
+          <v-list-item-title>{{ item.value }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
