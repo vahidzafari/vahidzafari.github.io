@@ -8,6 +8,7 @@
         <v-col cols="12" sm="6" md="6" lg="4">
           <contact-information></contact-information>
           <language-information></language-information>
+          <salary-information></salary-information>
         </v-col>
         <v-col cols="12" sm="6" md="6" lg="8">
           <experience></experience>
@@ -22,6 +23,7 @@ import topnav from '@/components/topnav'
 import Experience from '@/components/experience.vue'
 import ContactInformation from '@/components/contact-information.vue'
 import LanguageInformation from '~/components/language-information.vue'
+import SalaryInformation from '~/components/salary-information.vue'
 
 export default {
   components: {
@@ -29,6 +31,7 @@ export default {
     Experience,
     ContactInformation,
     LanguageInformation,
+    SalaryInformation
   },
 }
 </script>
@@ -39,9 +42,7 @@ export default {
   background-color: #ffe082 !important;
 }
 
-@media only screen and (min-width: 960px) {
-  .container {
-    max-width: 960px;
-  }
+.container {
+  max-width: 1024px !important;
 }
 </style>
