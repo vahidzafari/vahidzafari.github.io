@@ -20,7 +20,7 @@ export default {
       items: [
         {
           title: 'Expected Salary: ',
-          value: '200.000.000 IRR',
+          value: '150.000.000 IRR',
         },
         {
           title: 'Payment Period: ',
