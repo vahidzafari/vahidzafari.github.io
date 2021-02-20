@@ -20,27 +20,27 @@ export default {
       items: [
         {
           title: 'Expected Salary: ',
-          value: '150.000.000 IRR'
+          value: '200.000.000 IRR',
         },
-           {
+        {
           title: 'Payment Period: ',
-          value: 'Per month'
+          value: 'Per month',
         },
-           {
+        {
           title: 'Mobility Desire: ',
-          value: 'Yes, as needed'
+          value: 'Yes, as needed',
         },
-           {
+        {
           title: 'Notice Period: ',
-          value: '4 week'
+          value: '4 week',
         },
-           {
+        {
           title: 'Working hours: ',
-          value: '44 hours per week'
+          value: '44 hours per week',
         },
-           {
+        {
           title: 'Employment Type: ',
-          value: 'Full-time'
+          value: 'Full-time',
         },
       ],
     }

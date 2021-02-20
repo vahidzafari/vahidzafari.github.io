@@ -31,7 +31,7 @@ export default {
     Experience,
     ContactInformation,
     LanguageInformation,
-    SalaryInformation
+    SalaryInformation,
   },
 }
 </script>
@@ -43,6 +43,6 @@ export default {
 }
 
 .container {
-  max-width: 1024px !important;
+  max-width: 1280px !important;
 }
 </style>
